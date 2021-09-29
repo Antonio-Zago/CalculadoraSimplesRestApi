@@ -17,3 +17,4 @@ C:\Users\DEV01\Desktop\MeusProjetosGitHub\RestWithAspNet5\RestWithAspNet\RestWit
 C:\Users\DEV01\Desktop\MeusProjetosGitHub\RestWithAspNet5\RestWithAspNet\RestWithAspNet\obj\Debug\netcoreapp3.1\RestWithAspNet.dll
 C:\Users\DEV01\Desktop\MeusProjetosGitHub\RestWithAspNet5\RestWithAspNet\RestWithAspNet\obj\Debug\netcoreapp3.1\RestWithAspNet.pdb
 C:\Users\DEV01\Desktop\MeusProjetosGitHub\RestWithAspNet5\RestWithAspNet\RestWithAspNet\obj\Debug\netcoreapp3.1\RestWithAspNet.genruntimeconfig.cache
+C:\Users\DEV01\Desktop\MeusProjetosGitHub\RestWithAspNet5\RestWithAspNet\RestWithAspNet\obj\Debug\netcoreapp3.1\RestWithAspNet.csproj.AssemblyReference.cache

@@ -30,14 +30,23 @@ namespace RestWithAspNet.Controllers
             return BadRequest("Invalid Input");
         }
 
-        private int ConvertToDecimal(string secondNumber)
+        private decimal ConvertToDecimal(string sNumber)
         {
-            throw new NotImplementedException();
+            decimal decimalValue;
+            if(decimal.TryParse(sNumber, out decimalValue))
+            {
+                return decimalValue;
+            }
+
+            return 0;
         }
 
-        private bool IsNumeric(string firstNumber)
+        private bool IsNumeric(string sNumber)
         {
-            throw new NotImplementedException();
+            double number;
+            bool isNumber = double.TryParse(sNumber, System.Globalization.NumberStyles.Any, System.Globalization.NumberFormatInfo.InvariantInfo, out number);
+
+            return isNumber;
         }
     }
 }
